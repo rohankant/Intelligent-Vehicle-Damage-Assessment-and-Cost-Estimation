@@ -1,26 +1,6 @@
-# Intelligent-Vehicle-Damage-Assessment-and-Cost-Estimation
-
 # Flask Application for Vehicle Damage Assessment and Cost Estimation
 
 This folder contains the files required to run our flask application forIntelligent vehicle damage assessment and cost estimation with images.
-
-## File Structure
-
-<pre><font color="#12488B"><b>.</b></font>
-├── <font color="#26A269"><b>app.py</b></font>
-├── <font color="#12488B"><b>models</b></font>
-│   ├── <font color="#26A269"><b>stage1.h5</b></font>
-│   ├── <font color="#26A269"><b>vehicle_weights.h5</b></font>
-├── <font color="#12488B"><b>static</b></font>
-│   ├── <font color="#12488B"><b>css</b></font>
-│   │   ├── <font color="#26A269"><b>custom.css</b></font>
-│   ├── <font color="#12488B"><b>js</b></font>
-│   │   └── <font color="#26A269"><b>image_upload.js</b></font>
-└── <font color="#12488B"><b>templates</b></font>
-    ├── <font color="#26A269"><b>index.html</b></font>
-    ├── <font color="#26A269"><b>layout.html</b></font>
-    ├── <font color="#26A269"><b>results.html</b></font>
-</pre>
 
 The folder contains the following Structure:
 1. *app.py*: This file contains the flask implementation of the application.
@@ -28,7 +8,7 @@ The folder contains the following Structure:
     * *css*: Contains all CSS files needed to style the application.
     * *js*: Contains the javascript files necessary to run this application (mainly for uploading of image by user).
 3. *templates folder*: Contains all HTML files needed by the application.
-4. *models*: Contains the models that our team trained, used by our application to detect vehicle damages from an image.
+4. *models*: Contains Models (In this demo the models exceed Github limit hence arent present in the code)
 
 
 
@@ -39,8 +19,8 @@ The folder contains the following Structure:
 3. All training was done on Jupyter Notebooks.
 4. Dataset used for:
     * *Damaged/Not damaged*: (https://www.kaggle.com/datasets/anujms/car-damage-detection)
-    * *Damage localization*: Made by ourselves.
-    * *Damage extremity*: Made by ourselves.
+    * *Damage localization*: Made In House
+    * *Damage extremity*: Made In House
 5. Google Drive link for our Dataset: (https://drive.google.com/drive/folders/1uwSP3DXzjnVyVOxCzGyr8BC00iUiVlCp?usp=sharing)
 
 
